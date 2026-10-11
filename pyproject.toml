@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crdt-sequence-engine"  
+version = "0.1.0"
+description = "A lightweight CRDT sequence engine for collaborative apps"
+readme = "README.md"
+authors = [
+    { name = "Chinmay", email = "nkchinmayanandunk@gmail.com" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic>=2.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/NKchinmayanandu/crdt-engine"
